@@ -101,7 +101,14 @@ body {
 	transition: 0.3s;
 }
 
+
+
 @media (max-width: 999.98px) {
+.header__menulist.active {
+        display: flex;
+		height: 100vh;
+    }
+
 	.header__menulist>.header__item:not(:last-child) {
 		padding-right: 20px;
 	}
@@ -120,7 +127,7 @@ body {
 	}
 
 	.header__menulist {
-
+		display: none;
 		position: absolute;
 		right: 0;
 		top: 60px;
